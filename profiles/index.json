@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "profiles": [
+    {
+      "id": "porsche_992_2_cup",
+      "display_name": "Porsche 911 GT3 Cup (992.2)",
+      "revision": 1,
+      "file": "porsche_992_2_cup.lfcar",
+      "sha256": "f2ff6dcde22a47b3c3f1ec6d2ae41b9d0d673199a57449be71e388b136593ec5",
+      "size": 26692,
+      "zones": 49,
+      "updated": "2026-10-09",
+      "template_size": [
+        2048,
+        2048
+      ],
+      "mask_sha256": "6a543eaa0a1c52f23ecfb302ccc4dbd94d21e3d9bcbbfc725d6919561c5436b5"
+    }
+  ]
+}

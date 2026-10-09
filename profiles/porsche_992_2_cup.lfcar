@@ -1,0 +1,1116 @@
+{
+  "format": "lfcar",
+  "schema_version": 1,
+  "profile": {
+    "schema_version": 1,
+    "id": "porsche_992_2_cup",
+    "display_name": "Porsche 911 GT3 Cup (992.2)",
+    "paint_folder": "porsche9922cup",
+    "mask": "Turn Off Before Exporting TGA/Mask",
+    "mask_polarity": "opaque_outside",
+    "wireframe": "Turn Off Before Exporting TGA/Wire",
+    "base": "Paintable Area/Base",
+    "guide_group": "Turn Off Before Exporting TGA",
+    "number_blocks": "Turn Off Before Exporting TGA/Number Blocks",
+    "sponsor_blocks": "Turn Off Before Exporting TGA/Sponsor Blocks",
+    "branding": [
+      {
+        "layer": "Paintable Area/pitbox colors",
+        "enabled": true,
+        "display_name": "Pitbox colours"
+      },
+      {
+        "layer": "Paintable Area/X tape",
+        "enabled": true,
+        "display_name": "X tape"
+      },
+      {
+        "layer": "Paintable Area/Car_decal",
+        "enabled": true,
+        "display_name": "Car decals"
+      },
+      {
+        "layer": "Paintable Area/Super Cup Branding",
+        "enabled": true,
+        "display_name": "Series branding"
+      },
+      {
+        "layer": "Paintable Area/Color Change Logos",
+        "enabled": true,
+        "display_name": "Colour change logos"
+      }
+    ],
+    "zone_detection": {
+      "min_zone_px": 5000,
+      "line_grow_px": 4
+    },
+    "zones": [
+      {
+        "number": 1,
+        "seed": [
+          1169,
+          1862
+        ],
+        "label": "left_side",
+        "confidence": "high",
+        "front": "left",
+        "top": "up",
+        "car_left": null,
+        "layout": "identity",
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "main panel"
+      },
+      {
+        "number": 2,
+        "seed": [
+          1169,
+          808
+        ],
+        "label": "right_side",
+        "confidence": "high",
+        "front": "left",
+        "top": "down",
+        "car_left": null,
+        "layout": "flip_v",
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "main panel"
+      },
+      {
+        "number": 3,
+        "seed": [
+          1167,
+          1335
+        ],
+        "label": "roof",
+        "confidence": "high",
+        "front": "left",
+        "top": "out",
+        "car_left": "down",
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": ""
+      },
+      {
+        "number": 4,
+        "seed": [
+          558,
+          1335
+        ],
+        "label": "hood",
+        "confidence": "high",
+        "front": "left",
+        "top": "out",
+        "car_left": "down",
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": [
+          -0.018,
+          -0.022
+        ],
+        "frame_from": null,
+        "solid": false,
+        "note": "u_offset [front, rear] measured in the top-down seam test: hood bands sat ahead of the fender bands"
+      },
+      {
+        "number": 5,
+        "seed": [
+          168,
+          118
+        ],
+        "label": "rear_bumper",
+        "confidence": "high",
+        "front": "in",
+        "top": "up",
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": {
+          "axis": "x",
+          "face": [
+            344,
+            918
+          ]
+        },
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "wraps around the rear quarters behind the rear wheels"
+      },
+      {
+        "number": 6,
+        "seed": [
+          1396,
+          134
+        ],
+        "label": "wing",
+        "confidence": "medium",
+        "front": "left",
+        "top": "out",
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": 0.95,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": true,
+        "note": "main plane"
+      },
+      {
+        "number": 7,
+        "seed": [
+          88,
+          936
+        ],
+        "label": "front_bumper",
+        "confidence": "high",
+        "front": "out",
+        "top": "right",
+        "car_left": "down",
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": {
+          "axis": "y",
+          "face": [
+            1048,
+            1623
+          ]
+        },
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "wraps around the front corners"
+      },
+      {
+        "number": 8,
+        "seed": [
+          1269,
+          436
+        ],
+        "label": "hidden",
+        "confidence": "high",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "not visible in-game"
+      },
+      {
+        "number": 9,
+        "seed": [
+          1896,
+          1335
+        ],
+        "label": "rear_deck",
+        "confidence": "medium",
+        "front": "left",
+        "top": "out",
+        "car_left": "down",
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "engine lid"
+      },
+      {
+        "number": 10,
+        "seed": [
+          865,
+          1254
+        ],
+        "label": "windshield_frame",
+        "confidence": "medium",
+        "front": "left",
+        "top": "out",
+        "car_left": "down",
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": [
+          4,
+          17,
+          3
+        ],
+        "solid": false,
+        "note": "A-pillars and hood edge ring; per pixel hood / banner / roof frame"
+      },
+      {
+        "number": 11,
+        "seed": [
+          916,
+          591
+        ],
+        "label": "hidden",
+        "confidence": "high",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "not visible in-game"
+      },
+      {
+        "number": 12,
+        "seed": [
+          435,
+          235
+        ],
+        "label": "hidden",
+        "confidence": "high",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "not visible in-game"
+      },
+      {
+        "number": 13,
+        "seed": [
+          50,
+          497
+        ],
+        "label": "detail",
+        "confidence": "low",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "vertical strip with grey Mobil 1"
+      },
+      {
+        "number": 14,
+        "seed": [
+          1999,
+          1248
+        ],
+        "label": "tail_panel",
+        "confidence": "medium",
+        "front": "in",
+        "top": "left",
+        "car_left": "down",
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "folds down from the deck"
+      },
+      {
+        "number": 15,
+        "seed": [
+          1971,
+          634
+        ],
+        "label": "hidden",
+        "confidence": "high",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "not visible in-game"
+      },
+      {
+        "number": 16,
+        "seed": [
+          502,
+          23
+        ],
+        "label": "rear_bumper",
+        "confidence": "medium",
+        "front": "in",
+        "top": "up",
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": {
+          "axis": "x",
+          "face": [
+            344,
+            918
+          ]
+        },
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "top strip"
+      },
+      {
+        "number": 17,
+        "seed": [
+          935,
+          1298
+        ],
+        "label": "windshield_banner",
+        "confidence": "high",
+        "front": "left",
+        "top": "out",
+        "car_left": "down",
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": ""
+      },
+      {
+        "number": 18,
+        "seed": [
+          631,
+          243
+        ],
+        "label": "hidden",
+        "confidence": "high",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "not visible in-game"
+      },
+      {
+        "number": 19,
+        "seed": [
+          1744,
+          1990
+        ],
+        "label": "wing",
+        "confidence": "low",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": 0.95,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": true,
+        "note": "guessed swan-neck pylon, but the pylons render black in-game - unverified"
+      },
+      {
+        "number": 20,
+        "seed": [
+          1646,
+          1952
+        ],
+        "label": "wing",
+        "confidence": "low",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": 0.95,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": true,
+        "note": "guessed swan-neck pylon, but the pylons render black in-game - unverified"
+      },
+      {
+        "number": 21,
+        "seed": [
+          1824,
+          756
+        ],
+        "label": "detail",
+        "confidence": "low",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "circle: roof hatch or fuel cap?"
+      },
+      {
+        "number": 22,
+        "seed": [
+          1387,
+          496
+        ],
+        "label": "wing",
+        "confidence": "medium",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": 0.95,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": true,
+        "note": "plate"
+      },
+      {
+        "number": 23,
+        "seed": [
+          1208,
+          581
+        ],
+        "label": "wing",
+        "confidence": "medium",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": 0.95,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": true,
+        "note": "plate"
+      },
+      {
+        "number": 24,
+        "seed": [
+          1916,
+          1690
+        ],
+        "label": "badge",
+        "confidence": "medium",
+        "front": null,
+        "top": "up",
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": 0.05,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": true,
+        "note": "crest position"
+      },
+      {
+        "number": 25,
+        "seed": [
+          343,
+          1976
+        ],
+        "label": "front_bumper",
+        "confidence": "high",
+        "front": "left",
+        "top": "up",
+        "car_left": null,
+        "layout": "identity",
+        "u_start": 0.0,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "lower side panel, car's left; u_start 0: runs back from the nose by its own length"
+      },
+      {
+        "number": 26,
+        "seed": [
+          344,
+          695
+        ],
+        "label": "front_bumper",
+        "confidence": "high",
+        "front": "left",
+        "top": "down",
+        "car_left": null,
+        "layout": "flip_v",
+        "u_start": 0.0,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "lower side panel, car's right; u_start 0: runs back from the nose by its own length"
+      },
+      {
+        "number": 27,
+        "seed": [
+          813,
+          463
+        ],
+        "label": "hidden",
+        "confidence": "high",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "not visible in-game"
+      },
+      {
+        "number": 28,
+        "seed": [
+          87,
+          1982
+        ],
+        "label": "detail",
+        "confidence": "low",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": ""
+      },
+      {
+        "number": 29,
+        "seed": [
+          611,
+          499
+        ],
+        "label": "hidden",
+        "confidence": "high",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "not visible in-game"
+      },
+      {
+        "number": 30,
+        "seed": [
+          1952,
+          387
+        ],
+        "label": "wing",
+        "confidence": "high",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": 0.95,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": true,
+        "note": "wing endplate, car's right, outer face"
+      },
+      {
+        "number": 31,
+        "seed": [
+          995,
+          1618
+        ],
+        "label": "left_side",
+        "confidence": "high",
+        "front": "left",
+        "top": "up",
+        "car_left": null,
+        "layout": "identity",
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "window surround"
+      },
+      {
+        "number": 32,
+        "seed": [
+          995,
+          1052
+        ],
+        "label": "right_side",
+        "confidence": "high",
+        "front": "left",
+        "top": "down",
+        "car_left": null,
+        "layout": "flip_v",
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "window surround"
+      },
+      {
+        "number": 33,
+        "seed": [
+          318,
+          459
+        ],
+        "label": "hidden",
+        "confidence": "medium",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "in the hidden arc stack; not a vent (both rear ovals show 34)"
+      },
+      {
+        "number": 34,
+        "seed": [
+          1493,
+          1394
+        ],
+        "label": "vents",
+        "confidence": "high",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": true,
+        "note": "shared by all four ovals: hood pair next to the crest and rear deck pair (one of each pair mirrored)"
+      },
+      {
+        "number": 35,
+        "seed": [
+          1538,
+          1880
+        ],
+        "label": "mirrors",
+        "confidence": "high",
+        "front": "left",
+        "top": "up",
+        "car_left": null,
+        "layout": "identity",
+        "u_start": null,
+        "u_fixed": 0.32,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": true,
+        "note": "left mirror"
+      },
+      {
+        "number": 36,
+        "seed": [
+          1538,
+          790
+        ],
+        "label": "mirrors",
+        "confidence": "high",
+        "front": "left",
+        "top": "down",
+        "car_left": null,
+        "layout": "flip_v",
+        "u_start": null,
+        "u_fixed": 0.32,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": true,
+        "note": "right mirror"
+      },
+      {
+        "number": 37,
+        "seed": [
+          587,
+          416
+        ],
+        "label": "hidden",
+        "confidence": "high",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "not visible in-game"
+      },
+      {
+        "number": 38,
+        "seed": [
+          214,
+          392
+        ],
+        "label": "wing",
+        "confidence": "high",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": 0.95,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": true,
+        "note": "wing endplate, car's right, inner face"
+      },
+      {
+        "number": 39,
+        "seed": [
+          218,
+          295
+        ],
+        "label": "detail",
+        "confidence": "low",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "pair with 40"
+      },
+      {
+        "number": 40,
+        "seed": [
+          1045,
+          295
+        ],
+        "label": "detail",
+        "confidence": "low",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "pair with 39"
+      },
+      {
+        "number": 41,
+        "seed": [
+          1078,
+          387
+        ],
+        "label": "wing",
+        "confidence": "high",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": 0.95,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": true,
+        "note": "wing endplate, car's left, outer face"
+      },
+      {
+        "number": 42,
+        "seed": [
+          150,
+          656
+        ],
+        "label": "wing",
+        "confidence": "high",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": 0.95,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": true,
+        "note": "wing endplate, car's left, inner face"
+      },
+      {
+        "number": 43,
+        "seed": [
+          1698,
+          1273
+        ],
+        "label": "rear_deck",
+        "confidence": "medium",
+        "front": "left",
+        "top": "out",
+        "car_left": "down",
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "deck lip"
+      },
+      {
+        "number": 44,
+        "seed": [
+          322,
+          543
+        ],
+        "label": "hidden",
+        "confidence": "high",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "not visible in-game"
+      },
+      {
+        "number": 45,
+        "seed": [
+          660,
+          930
+        ],
+        "label": "right_side",
+        "confidence": "high",
+        "front": "left",
+        "top": "down",
+        "car_left": null,
+        "layout": "flip_v",
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "front fender vent"
+      },
+      {
+        "number": 46,
+        "seed": [
+          659,
+          1740
+        ],
+        "label": "left_side",
+        "confidence": "high",
+        "front": "left",
+        "top": "up",
+        "car_left": null,
+        "layout": "identity",
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "front fender vent"
+      },
+      {
+        "number": 47,
+        "seed": [
+          1148,
+          1034
+        ],
+        "label": "right_side",
+        "confidence": "high",
+        "front": "left",
+        "top": "down",
+        "car_left": null,
+        "layout": "flip_v",
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "quarter window panel"
+      },
+      {
+        "number": 48,
+        "seed": [
+          1150,
+          1635
+        ],
+        "label": "left_side",
+        "confidence": "high",
+        "front": "left",
+        "top": "up",
+        "car_left": null,
+        "layout": "identity",
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "quarter window panel"
+      },
+      {
+        "number": 49,
+        "seed": [
+          339,
+          1854
+        ],
+        "label": "misc",
+        "confidence": "high",
+        "front": null,
+        "top": null,
+        "car_left": null,
+        "layout": null,
+        "u_start": null,
+        "u_fixed": null,
+        "wrap": null,
+        "u_offset": 0.0,
+        "frame_from": null,
+        "solid": false,
+        "note": "small pieces under the size threshold"
+      }
+    ],
+    "car_details": "Turn Off Before Exporting TGA/Car_Mandatory",
+    "revision": 1,
+    "template_fingerprint": {
+      "size": [
+        2048,
+        2048
+      ],
+      "layers": [
+        "Custom Spec Map",
+        "Custom Spec Map/Blue Channel Clearcoat",
+        "Custom Spec Map/Blue Channel Clearcoat/Base Paint",
+        "Custom Spec Map/Green Channel Roughness",
+        "Custom Spec Map/Green Channel Roughness/Base Paint",
+        "Custom Spec Map/Green Channel Roughness/Parts",
+        "Custom Spec Map/Red Channel Metallic",
+        "Custom Spec Map/Red Channel Metallic/Base Paint",
+        "Custom Spec Map/Red Channel Metallic/Parts",
+        "Custom Spec Map/Spec Alpha Channel",
+        "Paintable Area",
+        "Paintable Area/Base",
+        "Paintable Area/Car Patterns",
+        "Paintable Area/Car Patterns/car_pattern_001.tga",
+        "Paintable Area/Car Patterns/car_pattern_001_spec.tga",
+        "Paintable Area/Car Patterns/car_pattern_002.tga",
+        "Paintable Area/Car Patterns/car_pattern_003.tga",
+        "Paintable Area/Car Patterns/car_pattern_004.tga",
+        "Paintable Area/Car Patterns/car_pattern_005.tga",
+        "Paintable Area/Car Patterns/car_pattern_006.tga",
+        "Paintable Area/Car Patterns/car_pattern_007.tga",
+        "Paintable Area/Car Patterns/car_pattern_008.tga",
+        "Paintable Area/Car Patterns/car_pattern_009.tga",
+        "Paintable Area/Car Patterns/car_pattern_010.tga",
+        "Paintable Area/Car Patterns/car_pattern_011.tga",
+        "Paintable Area/Car Patterns/car_pattern_012.tga",
+        "Paintable Area/Car Patterns/car_pattern_013.tga",
+        "Paintable Area/Car Patterns/car_pattern_014.tga",
+        "Paintable Area/Car Patterns/car_pattern_015.tga",
+        "Paintable Area/Car Patterns/car_pattern_016.tga",
+        "Paintable Area/Car Patterns/car_pattern_017.tga",
+        "Paintable Area/Car Patterns/car_pattern_018.tga",
+        "Paintable Area/Car Patterns/car_pattern_019.tga",
+        "Paintable Area/Car Patterns/car_pattern_020.tga",
+        "Paintable Area/Car Patterns/car_pattern_021.tga",
+        "Paintable Area/Car Patterns/car_pattern_022.tga",
+        "Paintable Area/Car Patterns/car_pattern_023.tga",
+        "Paintable Area/Car Patterns/car_pattern_024.tga",
+        "Paintable Area/Car_decal",
+        "Paintable Area/Color Change Logos",
+        "Paintable Area/Super Cup Branding",
+        "Paintable Area/X tape",
+        "Paintable Area/pitbox colors",
+        "Turn Off Before Exporting TGA",
+        "Turn Off Before Exporting TGA/Car_Mandatory",
+        "Turn Off Before Exporting TGA/Mask",
+        "Turn Off Before Exporting TGA/Number Blocks",
+        "Turn Off Before Exporting TGA/Sponsor Blocks",
+        "Turn Off Before Exporting TGA/Windshield Name Locations",
+        "Turn Off Before Exporting TGA/Wire"
+      ],
+      "mask_sha256": "6a543eaa0a1c52f23ecfb302ccc4dbd94d21e3d9bcbbfc725d6919561c5436b5"
+    }
+  }
+}
