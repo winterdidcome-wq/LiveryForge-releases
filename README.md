@@ -33,6 +33,12 @@ Every export first backs up the livery that was there before – your original p
 
 LiveryForge checks for a new version once a day when it starts (you can turn this off in Settings, or check by hand under Settings → About → *Check for updates*). When there is one, it shows what's new; **Update now** downloads it, checks it and installs it – your settings, designs and backups stay as they are.
 
+## More cars
+
+LiveryForge needs a *car profile* for each car: it tells the app how the car's flat template wraps around the real car. In the app, **Settings → Get car profiles…** lists the cars other drivers calibrated (they live in the [profiles](profiles) folder here) and installs them with one click – every download is checked before it is used.
+
+Your car isn't there? **Settings → Calibrate new car…** walks you through it: choose the template, click the panels and say what they are (hood, roof, sides …), check the directions, and test it in iRacing. You can share the result as a `.lfcar` file (Settings → Car profiles → Export).
+
 ## Where your stuff lives
 
 Settings, saved designs and livery backups are in `%APPDATA%\LiveryForge`. Uninstalling LiveryForge (Windows Settings → Apps) removes the program but **keeps** this folder.
