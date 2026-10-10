@@ -4,10 +4,10 @@
     {
       "id": "aston_martin_vantage_evo_gt3",
       "display_name": "Aston Martin Vantage EVO GT3",
-      "revision": 1,
+      "revision": 2,
       "file": "aston_martin_vantage_evo_gt3.lfcar",
-      "sha256": "fd8fab4b8791228fe5ab48caa37a02edd0a62c137b98e67276209f37381c7e54",
-      "size": 25186,
+      "sha256": "84d6fbd497e5be809076b322b8901e70e857dc377fc24700fccf6f530f3b93b9",
+      "size": 27740,
       "zones": 50,
       "updated": "2026-10-10",
       "template_size": [

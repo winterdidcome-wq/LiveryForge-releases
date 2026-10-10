@@ -1,8 +1,8 @@
 {
   "format": "lfcar",
-  "schema_version": 1,
+  "schema_version": 2,
   "profile": {
-    "schema_version": 1,
+    "schema_version": 2,
     "id": "aston_martin_vantage_evo_gt3",
     "display_name": "Aston Martin Vantage EVO GT3",
     "paint_folder": "amvantageevogt3",
@@ -61,6 +61,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -81,6 +83,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -101,6 +105,8 @@
         "u_fixed": 0.97,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "spoiler"
@@ -121,6 +127,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -141,6 +149,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -154,16 +164,18 @@
         "label": "front_bumper",
         "confidence": "high",
         "front": "out",
-        "top": "left",
+        "top": "up",
         "car_left": null,
         "layout": null,
         "u_start": null,
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.012,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
-        "note": ""
+        "note": "front face; top = up (stickers upright in the template), was 'left' until 2026-10-10"
       },
       {
         "number": 7,
@@ -181,6 +193,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -201,6 +215,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": -0.002,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "rear bumper"
@@ -221,6 +237,8 @@
         "u_fixed": 0.02,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "splitter"
@@ -241,6 +259,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "hood"
@@ -261,6 +281,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": -0.0263,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "right side skirt"
@@ -281,6 +303,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": -0.0263,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "left side skirt"
@@ -301,6 +325,8 @@
         "u_fixed": 0.02,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "splitter"
@@ -321,6 +347,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "hood"
@@ -341,6 +369,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "hood"
@@ -361,6 +391,8 @@
         "u_fixed": 0.98,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "diffuser"
@@ -381,6 +413,8 @@
         "u_fixed": 0.98,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "diffuser"
@@ -401,6 +435,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.039,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "right fender"
@@ -421,6 +457,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "roof"
@@ -441,6 +479,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.039,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "left fender"
@@ -461,6 +501,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "roof"
@@ -481,6 +523,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -501,6 +545,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -521,6 +567,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -541,6 +589,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -561,6 +611,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -581,6 +633,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -601,6 +655,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -621,6 +677,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -641,6 +699,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -661,6 +721,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -681,6 +743,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -701,6 +765,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -721,6 +787,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -741,6 +809,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -761,6 +831,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -781,6 +853,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -801,6 +875,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -821,6 +897,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -841,6 +919,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -861,6 +941,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -881,6 +963,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -901,6 +985,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -921,6 +1007,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -941,6 +1029,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -961,6 +1051,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -981,6 +1073,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -1001,6 +1095,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -1021,6 +1117,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -1041,13 +1139,15 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
       }
     ],
     "car_details": "Turn Off Before Exporting TGA/Car Mandatory",
-    "revision": 1,
+    "revision": 2,
     "template_fingerprint": {
       "size": [
         2048,
@@ -1106,6 +1206,7 @@
         "Turn Off Before Exporting TGA/Wire"
       ],
       "mask_sha256": "6e844ac141095aaa5b65939d00dd46b0d2a0324b014fd5ef84b9af99c3dc2692"
-    }
+    },
+    "logo_spots": {}
   }
 }
