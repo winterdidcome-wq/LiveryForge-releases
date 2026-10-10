@@ -1,8 +1,8 @@
 {
   "format": "lfcar",
-  "schema_version": 1,
+  "schema_version": 2,
   "profile": {
-    "schema_version": 1,
+    "schema_version": 2,
     "id": "porsche_992_2_cup",
     "display_name": "Porsche 911 GT3 Cup (992.2)",
     "paint_folder": "porsche9922cup",
@@ -61,6 +61,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "main panel"
@@ -81,6 +83,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "main panel"
@@ -101,6 +105,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -124,6 +130,8 @@
           -0.018,
           -0.022
         ],
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "u_offset [front, rear] measured in the top-down seam test: hood bands sat ahead of the fender bands"
@@ -150,6 +158,8 @@
           ]
         },
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "wraps around the rear quarters behind the rear wheels"
@@ -170,6 +180,8 @@
         "u_fixed": 0.95,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "main plane"
@@ -196,6 +208,8 @@
           ]
         },
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "wraps around the front corners"
@@ -216,6 +230,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "not visible in-game"
@@ -236,6 +252,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "engine lid"
@@ -256,6 +274,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": [
           4,
           17,
@@ -280,6 +300,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "not visible in-game"
@@ -300,6 +322,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "not visible in-game"
@@ -320,6 +344,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "vertical strip with grey Mobil 1"
@@ -340,6 +366,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "folds down from the deck"
@@ -360,6 +388,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "not visible in-game"
@@ -386,6 +416,8 @@
           ]
         },
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "top strip"
@@ -406,6 +438,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -426,6 +460,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "not visible in-game"
@@ -446,6 +482,8 @@
         "u_fixed": 0.95,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "guessed swan-neck pylon, but the pylons render black in-game - unverified"
@@ -466,6 +504,8 @@
         "u_fixed": 0.95,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "guessed swan-neck pylon, but the pylons render black in-game - unverified"
@@ -486,6 +526,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "circle: roof hatch or fuel cap?"
@@ -506,6 +548,8 @@
         "u_fixed": 0.95,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "plate"
@@ -526,6 +570,8 @@
         "u_fixed": 0.95,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "plate"
@@ -546,6 +592,8 @@
         "u_fixed": 0.05,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "crest position"
@@ -566,6 +614,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "lower side panel, car's left; u_start 0: runs back from the nose by its own length"
@@ -586,6 +636,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "lower side panel, car's right; u_start 0: runs back from the nose by its own length"
@@ -606,6 +658,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "not visible in-game"
@@ -626,6 +680,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": ""
@@ -646,6 +702,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "not visible in-game"
@@ -666,6 +724,8 @@
         "u_fixed": 0.95,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "wing endplate, car's right, outer face"
@@ -686,6 +746,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "window surround"
@@ -706,6 +768,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "window surround"
@@ -726,6 +790,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "in the hidden arc stack; not a vent (both rear ovals show 34)"
@@ -746,6 +812,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "shared by all four ovals: hood pair next to the crest and rear deck pair (one of each pair mirrored)"
@@ -766,6 +834,8 @@
         "u_fixed": 0.32,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "left mirror"
@@ -786,6 +856,8 @@
         "u_fixed": 0.32,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "right mirror"
@@ -806,6 +878,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "not visible in-game"
@@ -826,6 +900,8 @@
         "u_fixed": 0.95,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "wing endplate, car's right, inner face"
@@ -846,6 +922,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "pair with 40"
@@ -866,6 +944,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "pair with 39"
@@ -886,6 +966,8 @@
         "u_fixed": 0.95,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "wing endplate, car's left, outer face"
@@ -906,6 +988,8 @@
         "u_fixed": 0.95,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": true,
         "note": "wing endplate, car's left, inner face"
@@ -926,6 +1010,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "deck lip"
@@ -946,6 +1032,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "not visible in-game"
@@ -966,6 +1054,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "front fender vent"
@@ -986,6 +1076,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "front fender vent"
@@ -1006,6 +1098,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "quarter window panel"
@@ -1026,6 +1120,8 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "quarter window panel"
@@ -1046,13 +1142,15 @@
         "u_fixed": null,
         "wrap": null,
         "u_offset": 0.0,
+        "w_offset": 0.0,
+        "w_scale": 1.0,
         "frame_from": null,
         "solid": false,
         "note": "small pieces under the size threshold"
       }
     ],
     "car_details": "Turn Off Before Exporting TGA/Car_Mandatory",
-    "revision": 1,
+    "revision": 2,
     "template_fingerprint": {
       "size": [
         2048,
@@ -1111,6 +1209,26 @@
         "Turn Off Before Exporting TGA/Wire"
       ],
       "mask_sha256": "6a543eaa0a1c52f23ecfb302ccc4dbd94d21e3d9bcbbfc725d6919561c5436b5"
+    },
+    "logo_spots": {
+      "wing_endplates": [
+        {
+          "zones": [
+            41
+          ],
+          "side": "left",
+          "front": "left",
+          "top": "up"
+        },
+        {
+          "zones": [
+            30
+          ],
+          "side": "right",
+          "front": "right",
+          "top": "up"
+        }
+      ]
     }
   }
 }

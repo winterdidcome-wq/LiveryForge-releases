@@ -19,12 +19,12 @@
     {
       "id": "porsche_992_2_cup",
       "display_name": "Porsche 911 GT3 Cup (992.2)",
-      "revision": 1,
+      "revision": 2,
       "file": "porsche_992_2_cup.lfcar",
-      "sha256": "f2ff6dcde22a47b3c3f1ec6d2ae41b9d0d673199a57449be71e388b136593ec5",
-      "size": 26692,
+      "sha256": "eb6fe9e033c98f27655132ea6dc27e7979f29ce9bf8a4a35ddc337692a54b1b5",
+      "size": 29445,
       "zones": 49,
-      "updated": "2026-10-09",
+      "updated": "2026-10-10",
       "template_size": [
         2048,
         2048
