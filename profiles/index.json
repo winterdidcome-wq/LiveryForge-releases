@@ -2,6 +2,21 @@
   "schema_version": 1,
   "profiles": [
     {
+      "id": "aston_martin_vantage_evo_gt3",
+      "display_name": "Aston Martin Vantage EVO GT3",
+      "revision": 1,
+      "file": "aston_martin_vantage_evo_gt3.lfcar",
+      "sha256": "fd8fab4b8791228fe5ab48caa37a02edd0a62c137b98e67276209f37381c7e54",
+      "size": 25186,
+      "zones": 50,
+      "updated": "2026-10-10",
+      "template_size": [
+        2048,
+        2048
+      ],
+      "mask_sha256": "6e844ac141095aaa5b65939d00dd46b0d2a0324b014fd5ef84b9af99c3dc2692"
+    },
+    {
       "id": "porsche_992_2_cup",
       "display_name": "Porsche 911 GT3 Cup (992.2)",
       "revision": 1,
