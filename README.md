@@ -10,6 +10,13 @@ This page is only for **downloads**. There is no source code here.
 - iRacing, and your iRacing **customer ID** (a number – the app shows you where to find it)
 - The **paint template** of your car from iRacing (a free download, see below)
 
+## Supported cars
+
+- Porsche 911 GT3 Cup (992.2)
+- Aston Martin Vantage EVO GT3
+
+More cars: download profiles other drivers made, or calibrate your own (see *More cars* below).
+
 ## Install
 
 1. Go to **[Releases](../../releases/latest)** and download `LiveryForge-Setup-<version>.exe`.
@@ -25,7 +32,7 @@ On iracing.com open your car's page and download its **paint template**. It come
 
 ## Using it in iRacing
 
-Press **Export** in LiveryForge, then in an iRacing session press **Ctrl+R** to reload paints. Your livery is saved as `car_<your ID>.tga` in `Documents\iRacing\paint\<car>\`.
+Press **Export** in LiveryForge. The car updates automatically in the iRacing UI's car view; in a sim session, press **Ctrl+R**. Your livery is saved as `car_<your ID>.tga` in `Documents\iRacing\paint\<car>\`.
 
 Every export first backs up the livery that was there before – your original paint is always kept (see **Backups…** in the app).
 
@@ -37,7 +44,7 @@ LiveryForge checks for a new version once a day when it starts (you can turn thi
 
 LiveryForge needs a *car profile* for each car: it tells the app how the car's flat template wraps around the real car. In the app, **Settings → Get car profiles…** lists the cars other drivers calibrated (they live in the [profiles](profiles) folder here) and installs them with one click – every download is checked before it is used.
 
-Your car isn't there? **Settings → Calibrate new car…** walks you through it: choose the template, click the panels and say what they are (hood, roof, sides …), check the directions, and test it in iRacing. You can share the result as a `.lfcar` file (Settings → Car profiles → Export).
+Your car isn't there? **Settings → Calibrate new car (beta)…** walks you through it: export a colour-coded test livery, switch to the iRacing UI's car view (it updates by itself), press **Ctrl+Shift+L** from several angles, and LiveryForge works out the panels; you fix what it got wrong by clicking on the photos. Make the car as big as possible in the view before capturing. You can share the result as a `.lfcar` file (Settings → Car profiles → Export). Calibrating is new and still in beta – feedback is welcome.
 
 ## Where your stuff lives
 
@@ -46,5 +53,4 @@ Settings, saved designs and livery backups are in `%APPDATA%\LiveryForge`. Unins
 ## Good to know
 
 - Designs work on every supported car – share a design with a friend: *Designs → Export…*, they add it with *Import…*.
-- *Capture iRacing* (screenshot thumbnails of your design) needs iRacing in **windowed or borderless** mode; fullscreen can't be captured.
-- Supported cars so far: Porsche 911 GT3 Cup (992.2). More cars will follow.
+- *Capture iRacing* (screenshot thumbnails of your design) and **Ctrl+Shift+L** capture the window in front - the iRacing UI or the sim. The sim must run in **windowed or borderless** mode; fullscreen can't be captured.
