@@ -1,6 +1,6 @@
 # LiveryForge
 
-**Custom iRacing liveries in a few clicks.** LiveryForge is a free Windows app that designs paint schemes for your iRacing car – racing stripes, gradients, geometric shards, camo, splatter – puts your own logos on it, shows it live on the car, and saves the finished livery straight into iRacing's paint folder.
+**Custom iRacing liveries in a few clicks.** LiveryForge is a free Windows app that designs paint schemes for your iRacing car – racing stripes, swooshes, gradients, geometric shards, camo, splatter – puts your own logos on it, shows it live on the car, and saves the finished livery straight into iRacing's paint folder.
 
 This page is only for **downloads**. There is no source code here.
 
@@ -49,7 +49,7 @@ Put your team's or sponsors' logos on the car (**Logos** in the left panel):
 
 ### Car views
 
-Next to the flat template, the centre view shows the car from the **left, right, top, front and rear**. Drag a logo to move it, drag a corner to resize it, drag the round handle to turn it. While you drag, the parts that would be hidden show in red; when you let go it snaps onto the visible area. The sliders on the left are there for fine-tuning.
+Next to the flat template, the centre view shows the car from the **left, right, top, front and rear**. Drag a logo to move it, drag a corner to resize it, drag the round handle to turn it. While you drag, the parts that would be hidden show in red; when you let go it snaps onto the visible area. It works the same in the flat **Template** view. Click a logo (in any view or in the Logos list) to select it – picking it in the list jumps to the car view where it shows best. **Ctrl+Z** undoes a move. The sliders on the left are there for fine-tuning.
 
 ## Import a livery
 
@@ -74,4 +74,5 @@ Settings, saved designs, your logo library, imported liveries and livery backups
 ## Good to know
 
 - Designs work on every supported car – share a design with a friend: *Designs → Export…*, they add it with *Import…*.
+- Swoosh designs need LiveryForge 0.4.0 or newer - update before opening a design you received from a friend.
 - *Capture iRacing* (screenshot thumbnails of your design) and **Ctrl+Shift+L** capture the window in front - the iRacing UI or the sim. The sim must run in **windowed or borderless** mode; fullscreen can't be captured.
